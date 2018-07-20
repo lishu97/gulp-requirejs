@@ -25,7 +25,10 @@ gulp.task('scss', function (done) {
 })
 
 gulp.task('js', function (done) {
-	gulp.src(app.srcPath + '**/*.js')
+	gulp.src([app.srcPath + '**/*.js', '!' + app.srcPath + '**/*.min.js'])
+		.pipe($.babel())
+		.pipe(gulp.dest(app.devPath))
+	gulp.src([app.srcPath + '**/*.min.js'])
 		.pipe(gulp.dest(app.devPath))
 	done();
 })

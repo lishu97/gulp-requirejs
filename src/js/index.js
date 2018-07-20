@@ -13,7 +13,7 @@ require.config({ // 也可以写作requirejs.config()
 })
 
 // 主函数
-require(['jquery', 'Mock', 'echarts', 'main', 'content', 'mockConfig'], function ($, Mock, echarts, main, content, mockConfig) {
+require(['jquery', 'Mock', 'echarts', 'main', 'content', 'mockConfig'], ($, Mock, echarts, main, content, mockConfig) => {
 	// 显示首页结构和内容
 	$('#main').html(main({}));
 	
@@ -26,11 +26,11 @@ require(['jquery', 'Mock', 'echarts', 'main', 'content', 'mockConfig'], function
 	})
 	
 	// 发起数据请求并传递给模板引擎渲染
-	$('button').on('click', function () {
+	$('button').on('click', () => {
 		$.ajax({
 			url: 'http://localhost:8000',
 			dataType: 'json',
-			success: function (user) {
+			success: user => {
 				$('#content').html(content(user));
 			}
 		})
