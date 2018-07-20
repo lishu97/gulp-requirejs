@@ -21,6 +21,8 @@ gulp.task('scss', function (done) {
 	gulp.src(app.srcPath + 'scss/*.scss')
 		.pipe($.sass())
 		.pipe(gulp.dest(app.devPath + 'css'))
+	gulp.src(app.srcPath + 'lib/*.css')
+		.pipe(gulp.dest(app.devPath + 'lib'))
 	done();
 })
 

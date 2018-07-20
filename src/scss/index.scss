@@ -1,10 +1,11 @@
 $tableWidth: 70px;
+$color: rgb(0, 123, 255);
 * {
 	padding: 0;
 	margin: 0;
 }
 body {
-	background: orange;
+	background: #eee;
 	padding: 50px;
 	hr {
 		margin: 10px 0;
@@ -33,10 +34,10 @@ body {
 				display: inline-block;
 				text-align-last: justify;
 				text-align: justify;
-				color: red;
+				color: $color;
 			}
 			&:nth-of-type(2) {
-				color: red;
+				color: $color;
 			}			
 		}			
 	}	
