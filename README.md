@@ -17,7 +17,6 @@ gulp package
 - [x] 使用browserSync实现浏览器自动刷新
 - [x] 使用arttemplate模板引擎(借助gulp-tmod插件)
 - [x] 使用scss语法（借助gulp-sass插件）
-- [x] 导入jquery到项目
-- [ ] 使用mock.js伪造数据
+- [x] 在项目中运用jquery、bootstrap、mock.js
+- [x] es6 => es5
 - [ ] 实现echarts
-- [ ] 实例jquery方法复习
