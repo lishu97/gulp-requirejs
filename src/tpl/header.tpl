@@ -1,5 +1,8 @@
 <div id="header">
-	<h1>JQuery+RequireJs+gulp+arttemplate+sass+mockjs</h1>
-	<img src={{imgSrc}} >
-	<p>hello, {{user1.name}}</p>
+	<img src='../img/62d8efadgw1ej30downrsj20hs0hq0ws.jpg'>
+	<div>
+		<h1>个人信息系统</h1>
+		<p>欢迎，系统可以随机展示某个人的信息</p>
+		<button class=".btn-default">试一下</button>
+	</div>
 </div>

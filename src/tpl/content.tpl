@@ -1,16 +1,10 @@
 <div id="content">
-	{{if user1}}
-		<p><span>用户名</span><span>：</span>{{user1.name}}</p>
-		<p><span>邮箱</span><span>：</span>{{user1.email}}</p>
-	{{else if user2}}
-		<p><span>用户名</span><span>：</span>{{user2.name}}</p>
-		<p><span>邮箱</span><span>：</span>{{user2.email}}</p>
+	{{if name}}
+		<p><span>姓名</span><span>：</span>{{name}}</p>
+		<p><span>性别</span><span>：</span>{{sex}}</p>
+		<p><span>出生地</span><span>：</span>{{birthplace}}</p>
+		<p><span>出生日期</span><span>：</span>{{birthday}}</p>
 	{{else}}
-		<p>当前不存在用户</p>
+		<p>点击按钮获取用户信息</p>
 	{{/if}}
-	<ul>
-		{{each list as value index}}
-			<li>{{index}} ================= {{value}}</li>
-		{{/each}}
-	</ul>
 </div>
