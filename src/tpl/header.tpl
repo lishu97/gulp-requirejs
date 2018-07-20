@@ -1,2 +1,5 @@
-<h1>入职练习</h1>
-<p>hello, {{user2.name}}</p>
+<div id="header">
+	<h1>JQuery+RequireJs+gulp+arttemplate+sass+mockjs</h1>
+	<img src={{imgSrc}} >
+	<p>hello, {{user1.name}}</p>
+</div>

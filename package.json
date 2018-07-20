@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "gulp+requirejs+browserSync+arttemplate+sass+jquery",
   "version": "1.0.0",
-  "description": "test",
+  "description": "gulp+requirejs+browserSync+arttemplate+sass+jquery",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -16,13 +16,10 @@
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-cache": "^1.0.2",
-    "gulp-clean-css": "^3.9.4",
     "gulp-cssnano": "^2.1.3",
     "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.1.0",
-    "gulp-livereload": "^3.8.1",
     "gulp-load-plugins": "^1.5.0",
-    "gulp-rename": "^1.3.0",
     "gulp-sass": "^4.0.1",
     "gulp-tmod": "^2.0.3",
     "gulp-uglify": "^3.0.0"
