@@ -23,8 +23,5 @@
     "gulp-sass": "^4.0.1",
     "gulp-tmod": "^2.0.3",
     "gulp-uglify": "^3.0.0"
-  },
-  "dependencies": {
-    "art-template": "^4.12.2"
   }
 }
