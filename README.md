@@ -1,14 +1,14 @@
-# gulp-requirejs-browserSync-arttemplate-sass-jquery
-包含gulp+requirejs+browserSync+arttemplate+sass+jquery的前端框架
+# gulp+requirejs
+包含gulp、requirejs、browserSync、arttemplate、sass、jquery、mockjs、babel的前端框架
 ## usage
 <pre><code>
-// 安装依赖
-npm install
+/* 安装依赖 */
+npm install // 推荐使用[cnpm](http://npm.taobao.org)安装
 
-// 开发模式
+/* 开发模式 */
 gulp dev
 
-// 项目打包
+/* 项目打包 */
 gulp package
 </code></pre>
 ## TODO
