@@ -81,7 +81,7 @@ gulp.task('tpl-watch', ['tpl'], function(done){
 
 // 清空已经打包的文件
 gulp.task('delete', function (done) {
-	del([app.devPath]);
+	del([app.devPath, app.devPath]);
 	done();
 })
 
