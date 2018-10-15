@@ -1,5 +1,5 @@
 {
-  "name": "gulp+requirejs",
+  "name": "gulp-requirejs",
   "version": "1.0.0",
   "description": "gulp requirejs browserSync arttemplate sass jquery mockjs babel",
   "main": "index.js",

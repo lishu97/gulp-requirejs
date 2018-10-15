@@ -1,9 +1,9 @@
-# gulp+requirejs
+# gulp-requirejs
 包含gulp、requirejs、browserSync、arttemplate、sass、jquery、mockjs、babel的前端框架
 ## usage
 <pre><code>
 /* 安装依赖 */
-npm install // 推荐使用[cnpm](http://npm.taobao.org)安装
+npm i
 
 /* 开发模式 */
 gulp dev
@@ -19,4 +19,4 @@ gulp package
 - [x] 使用scss语法（借助gulp-sass插件）
 - [x] 在项目中运用jquery、bootstrap、mock.js
 - [x] es6 => es5
-- [ ] 实现echarts
+- [ ] 引入echarts
